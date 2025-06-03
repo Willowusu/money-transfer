@@ -7,11 +7,11 @@ import TestimonialSection from "@/components/Testimonial";
 
 export default function LandingPage() {
     return (
-        <Layout>
+        <>
             <HeroSection />
             <RatesSection />
             <MobileMoneySection />
             <TestimonialSection />
-        </Layout>
+        </>
     );
 }

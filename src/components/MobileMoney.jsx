@@ -1,5 +1,3 @@
-import React from "react";
-
 const MobileMoneySection = () => {
   return (
     <section className="bg-[#ffcab3] text-center py-16 px-0 md:px-4">

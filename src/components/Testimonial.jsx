@@ -1,7 +1,6 @@
-import React from "react";
-import IndianImage from "../../assets/images/indian.jpg";
-import WomanImage from "../../assets/images/woman.jpg";
-import ManImage from "../../assets/images/man.jpg";
+import IndianImage from "../assets/images/indian.jpg";
+import WomanImage from "../assets/images/woman.jpg";
+import ManImage from "../assets/images/man.jpg";
 
 const testimonials = [
   {

@@ -56,7 +56,7 @@ const Login = () => {
               Forgot your password?
             </a>
           </div>
-          {/* Forgot Password */}
+          {/* Create Account */}
           <div className="text-center mt-3">
             <a href="#" className="text-sm text-blue-500 hover:underline">
               Create Account

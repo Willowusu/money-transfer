@@ -9,6 +9,7 @@ export default function StepPersonal({ data, update }) {
                 <Label>First Name</Label>
                 <Input
                     type="text"
+                    placeholder="Enter your first name here..."
                     value={data.firstName}
                     onChange={(e) => update('firstName', e.target.value)}
                     required
@@ -18,6 +19,7 @@ export default function StepPersonal({ data, update }) {
                 <Label>Last Name</Label>
                 <Input
                     type="text"
+                    placeholder="Enter your last name here..."
                     value={data.lastName}
                     onChange={(e) => update('lastName', e.target.value)}
                     required
@@ -27,6 +29,7 @@ export default function StepPersonal({ data, update }) {
                 <Label>Phone Number</Label>
                 <Input
                     type="tel"
+                    placeholder="233 244 456 456"
                     value={data.phone}
                     onChange={(e) => update('phone', e.target.value)}
                     required

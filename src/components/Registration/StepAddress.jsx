@@ -9,6 +9,7 @@ export default function StepAddress({ data, update }) {
                 <Label>Street Address</Label>
                 <Input
                     type="text"
+                    placeholder="Pawpaw Street"
                     value={data.address}
                     onChange={(e) => update('address', e.target.value)}
                     required
@@ -18,6 +19,7 @@ export default function StepAddress({ data, update }) {
                 <Label>City</Label>
                 <Input
                     type="text"
+                    placeholder="Lagos"
                     value={data.city}
                     onChange={(e) => update('city', e.target.value)}
                     required
@@ -27,6 +29,7 @@ export default function StepAddress({ data, update }) {
                 <Label>Postal Code</Label>
                 <Input
                     type="text"
+                    placeholder="123456"
                     value={data.zip}
                     onChange={(e) => update('zip', e.target.value)}
                     required
@@ -36,6 +39,7 @@ export default function StepAddress({ data, update }) {
                 <Label>State / Province</Label>
                 <Input
                     type="text"
+                    placeholder="Lagos State"
                     value={data.state}
                     onChange={(e) => update('state', e.target.value)}
                 />
@@ -44,6 +48,7 @@ export default function StepAddress({ data, update }) {
                 <Label>Country</Label>
                 <Input
                     type="text"
+                    placeholder="Nigeria"
                     value={data.country}
                     onChange={(e) => update('country', e.target.value)}
                     required

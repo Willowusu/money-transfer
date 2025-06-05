@@ -15,6 +15,7 @@ export default function RegistrationForm() {
     const [formData, setFormData] = useState({
         email: '',
         password: '',
+        confirmPassword: '',
         firstName: '',
         lastName: '',
         phone: '',

@@ -9,6 +9,7 @@ export default function StepAccount({ data, update }) {
                 <Label>Email</Label>
                 <Input
                     type="email"
+                    placeholder="johndoe@mail.com"
                     value={data.email}
                     onChange={(e) => update('email', e.target.value)}
                     required
@@ -18,8 +19,19 @@ export default function StepAccount({ data, update }) {
                 <Label>Password</Label>
                 <Input
                     type="password"
+                    placeholder="**********"
                     value={data.password}
                     onChange={(e) => update('password', e.target.value)}
+                    required
+                />
+            </div>
+            <div>
+                <Label>Confirm Password</Label>
+                <Input
+                    type="password"
+                    placeholder="**********"
+                    value={data.confirmPassword}
+                    onChange={(e) => update('confirmPassword', e.target.value)}
                     required
                 />
             </div>

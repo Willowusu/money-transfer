@@ -1,13 +1,22 @@
 // src/App.jsx
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import LandingPage from './pages/LandingPage';
-import RegisterPage from './pages/RegisterPage'; 
-import Layout from './components/Layout';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import LoginPage from "./pages/LoginPage";
+import LandingPage from "./pages/LandingPage";
+import RegisterPage from "./pages/RegisterPage";
+import Layout from "./components/Layout";
 
 function App() {
   return (
     <Router>
       <Routes>
+        <Route
+          path="/"
+          element={
+            <Layout>
+              <LoginPage />
+            </Layout>
+          }
+        />
         <Route
           path="/"
           element={
@@ -20,7 +29,7 @@ function App() {
           path="/register"
           element={
             <Layout>
-            <RegisterPage />
+              <RegisterPage />
             </Layout>
           }
         />

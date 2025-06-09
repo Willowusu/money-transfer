@@ -16,4 +16,5 @@ export default function LandingPage() {
       <Login />
     </Layout>
   );
+
 }

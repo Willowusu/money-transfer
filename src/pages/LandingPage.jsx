@@ -8,13 +8,13 @@ import Login from "@/components/Login";
 
 export default function LandingPage() {
   return (
-    <Layout>
-      <HeroSection />
-      <RatesSection />
-      <MobileMoneySection />
-      <TestimonialSection />
-      <Login />
-    </Layout>
+    <>
+      <Layout>
+        <HeroSection />
+        <RatesSection />
+        <MobileMoneySection />
+        <TestimonialSection />
+      </Layout>
+    </>
   );
-
 }

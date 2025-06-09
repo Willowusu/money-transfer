@@ -13,15 +13,15 @@ function App() {
           path="/"
           element={
             <Layout>
-              <LoginPage />
+              <LandingPage />
             </Layout>
           }
         />
         <Route
-          path="/"
+          path="/login"
           element={
             <Layout>
-              <LandingPage />
+              <LoginPage />
             </Layout>
           }
         />

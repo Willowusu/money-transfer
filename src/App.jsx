@@ -9,7 +9,8 @@ import RecipientsPage from "./pages/dashboard/recipients";
 import TransactionsPage from "./pages/dashboard/transactions";
 import SettingsPage from "./pages/dashboard/settings";
 import Layout from "./components/Layout";
-import SendMoneyPage from "./pages/SendMoneyPage/SendMoney"; // ✅ make sure this path is correct
+import SendMoneyPage from "./pages/SendMoneyPage/SendMoney";
+import TransactionReceipt from "./pages/dashboard/transaction-receipt";
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
           <Route index element={<DashboardHome />} />
           <Route path="recipients" element={<RecipientsPage />} />
           <Route path="transactions" element={<TransactionsPage />} />
+          <Route path="transactions/:id" element={<TransactionReceipt />} />
           <Route path="settings" element={<SettingsPage />} />
         </Route>
 

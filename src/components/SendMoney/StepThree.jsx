@@ -99,17 +99,21 @@ export default function StepThree({ onNext, onBack }) {
       </div>
 
       {/* Fee Info */}
-      <div className="bg-gray-50 p-4 rounded-lg shadow-sm text-sm text-left space-y-1">
-        <p>
-          <strong>Arto+ fees</strong>: $0.00
-        </p>
-        <p>
-          <strong>You will pay</strong>: ${amount}
-        </p>
-        <p>
-          <strong>Total amount will be converted</strong>
-        </p>
-        <p className="text-gray-500">Guaranteed rate (12h) ⓘ</p>
+      <div className="bg-gray-50 p-4 rounded-lg shadow-sm text-sm text-left space-y-1 flex justify-between items-center">
+        <div>
+          <p>
+            <strong>Arto+ fees</strong>: $0.00
+          </p>
+          <p>
+            <strong>You will pay</strong>: ${amount}
+          </p>
+        </div>
+        <div>
+          <p>
+            <strong>Total amount will be converted</strong>
+          </p>
+          <p className="text-gray-500">Guaranteed rate (12h) ⓘ</p>
+        </div>
       </div>
 
       {/* Footer Buttons */}
